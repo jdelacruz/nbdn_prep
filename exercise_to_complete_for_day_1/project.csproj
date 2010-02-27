@@ -54,7 +54,7 @@
   <ItemGroup>
     <None Include="build.bat" />
     <None Include="build_utilities.rb" />
-    <None Include="local_properties.rb.customize" />
+    <None Include="local_properties.rb" />
     <None Include="open.bat" />
     <None Include="product\config\app.config.vista.template" />
     <None Include="product\config\app.config.xp.template" />
