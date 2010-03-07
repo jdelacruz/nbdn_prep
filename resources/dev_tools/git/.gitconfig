@@ -1,0 +1,31 @@
+[core]
+  editor = C:/utils/vim/vim72/gvim.exe
+  autocrlf = false
+
+[user]
+	email = jp@jpboodhoo.com
+	name = Jean-Paul S. Boodhoo
+
+[merge]
+	tool = bc3
+
+[mergetool "bc3"]
+	cmd = \"c:/utils/beyond_compare_3/bcomp.exe\" \"$LOCAL\" \"$REMOTE\" \"$BASE\" \"$MERGED\"
+  trustExitCode = true
+  keepBackup = false
+
+[diff]
+	tool = bc3
+
+[difftool]
+	prompt = false
+
+[difftool "bc3"]
+	cmd = \"c:/utils/beyond_compare_3/bcomp.exe\" \"$LOCAL\" \"$REMOTE\"
+
+[push]
+  default = current
+
+[color]
+	ui = auto
+
